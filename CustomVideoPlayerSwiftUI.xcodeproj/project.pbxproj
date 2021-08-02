@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5188DC5526B3036000AA6B95 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188DC5426B3036000AA6B95 /* VideoPlayer.swift */; };
+		5188DC5726B3038200AA6B95 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188DC5626B3038200AA6B95 /* ControlsView.swift */; };
+		5188DC5926B303CD00AA6B95 /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5188DC5826B303CD00AA6B95 /* CustomProgressBar.swift */; };
 		51A82C0826B2AE4A006F6BEC /* CustomVideoPlayerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A82C0726B2AE4A006F6BEC /* CustomVideoPlayerSwiftUIApp.swift */; };
 		51A82C0A26B2AE4A006F6BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A82C0926B2AE4A006F6BEC /* ContentView.swift */; };
 		51A82C0C26B2AE4C006F6BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A82C0B26B2AE4C006F6BEC /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5109269D26B2B74900517FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5188DC5426B3036000AA6B95 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		5188DC5626B3038200AA6B95 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		5188DC5826B303CD00AA6B95 /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		51A82C0426B2AE4A006F6BEC /* CustomVideoPlayerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomVideoPlayerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A82C0726B2AE4A006F6BEC /* CustomVideoPlayerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerSwiftUIApp.swift; sourceTree = "<group>"; };
 		51A82C0926B2AE4A006F6BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +58,12 @@
 		51A82C0626B2AE4A006F6BEC /* CustomVideoPlayerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5109269D26B2B74900517FED /* Info.plist */,
 				51A82C0726B2AE4A006F6BEC /* CustomVideoPlayerSwiftUIApp.swift */,
 				51A82C0926B2AE4A006F6BEC /* ContentView.swift */,
+				5188DC5426B3036000AA6B95 /* VideoPlayer.swift */,
+				5188DC5626B3038200AA6B95 /* ControlsView.swift */,
+				5188DC5826B303CD00AA6B95 /* CustomProgressBar.swift */,
 				51A82C0B26B2AE4C006F6BEC /* Assets.xcassets */,
 				51A82C0D26B2AE4C006F6BEC /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5188DC5726B3038200AA6B95 /* ControlsView.swift in Sources */,
 				51A82C0A26B2AE4A006F6BEC /* ContentView.swift in Sources */,
 				51A82C0826B2AE4A006F6BEC /* CustomVideoPlayerSwiftUIApp.swift in Sources */,
+				5188DC5926B303CD00AA6B95 /* CustomProgressBar.swift in Sources */,
+				5188DC5526B3036000AA6B95 /* VideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +286,13 @@
 				DEVELOPMENT_TEAM = 69S862NXBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomVideoPlayerSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +317,13 @@
 				DEVELOPMENT_TEAM = 69S862NXBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomVideoPlayerSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
